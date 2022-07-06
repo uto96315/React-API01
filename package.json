@@ -1,0 +1,24 @@
+{
+  "name": "react-api01",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "G'sのExpansion講座第一回の課題提出用ディレクトリです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uto96315/React-API01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uto96315/React-API01/issues"
+  },
+  "homepage": "https://github.com/uto96315/React-API01#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
