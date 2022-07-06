@@ -10,6 +10,9 @@ G'sのExpansion講座第一回の課題提出用ディレクトリです。
 ⑤.gitignoreファイルの生成と/node_modulesの記述</br>
 
 
+## トライしてみたいこと
+#### ①HtMLを返してみたい
+
 ## 不明点
 ### app.js
 ```
