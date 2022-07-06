@@ -2,7 +2,7 @@
 G'sのExpansion講座第一回の課題提出用ディレクトリです。
 
 ## スタート手順まとめ
-参考：https://gs-expansion-202207.deno.dev/nodejs/basic/prepare-api.html
+参考：https://gs-expansion-202207.deno.dev/nodejs/basic/prepare-api.html</br>
 ①ファイルを作成してnpm init</br>
 ②全部Enterで進む</br>
 ③package.jsonにtype: moduleの追加（verの下あたり）</br>
@@ -11,3 +11,10 @@ G'sのExpansion講座第一回の課題提出用ディレクトリです。
 
 
 ## 不明点
+### app.js
+```
+// 第一引数のreqはなんの為？
+app.get("/", (req, res) => {
+    res.send("Success!")
+});
+```
