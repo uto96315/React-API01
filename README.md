@@ -21,3 +21,6 @@ app.get("/", (req, res) => {
     res.send("Success!")
 });
 ```
+
+## 参考サイト
+[Node.jsとExpressでWeb APIを作ってみよう](https://sbfl.net/blog/2018/08/25/nodejs-express-webapi/)
