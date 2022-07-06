@@ -13,6 +13,7 @@ G'sのExpansion講座第一回の課題提出用ディレクトリです。
 ## トライしてみたいこと
 #### ①HtMLを返してみたい
 
+
 ## 不明点
 ### app.js
 ```
@@ -21,6 +22,11 @@ app.get("/", (req, res) => {
     res.send("Success!")
 });
 ```
+```
+// webフォルダの中身を公開する
+app.use(express.static('web'));
+```
+
 
 ## 参考サイト
 [Node.jsとExpressでWeb APIを作ってみよう](https://sbfl.net/blog/2018/08/25/nodejs-express-webapi/)
