@@ -20,13 +20,13 @@ G'sのExpansion講座第一回の課題提出用ディレクトリです。
 
 ## 不明点
 ### app.js
+> これは、サーバーの"/"にGETでアクセスしてきた時に"Success！"を返す。という意味のようだ。
 ```
 // 第一引数のreqはなんの為？
 app.get("/", (req, res) => {
     res.send("Success!")
 });
 ```
-> これは、サーバーの"/"にGETでアクセスしてきた時に"Success！"を返す。という意味のようだ。
 ```
 // webフォルダの中身を公開する
 app.use(express.static('web'));
