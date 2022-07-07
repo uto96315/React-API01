@@ -22,6 +22,7 @@ app.get("/", (req, res) => {
     res.send("Success!")
 });
 ```
+> これは、サーバーの"/"にGETでアクセスしてきた時に"Success！"を返す。という意味のようだ。
 ```
 // webフォルダの中身を公開する
 app.use(express.static('web'));
