@@ -39,3 +39,4 @@ app.use(express.static('web'));
 
 ## 参考サイト
 [Node.jsとExpressでWeb APIを作ってみよう](https://sbfl.net/blog/2018/08/25/nodejs-express-webapi/)
+[JavaScriptのFetch APIを利用してリクエストを送信する](https://sbfl.net/blog/2017/01/29/fetch-api/)
