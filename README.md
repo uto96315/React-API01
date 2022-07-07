@@ -2,7 +2,7 @@
 G'sのExpansion講座第一回の課題提出用ディレクトリです。
 
 ## 使い方
-検索エンジンで**http://localhost:3001**で入るとTODOリストが生成される
+検索エンジンで** http://localhost:3001 ** で入るとTODOリストが生成される
 
 ## 開発スタート手順まとめ
 参考：https://gs-expansion-202207.deno.dev/nodejs/basic/prepare-api.html</br>
