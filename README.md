@@ -32,6 +32,9 @@ app.get("/", (req, res) => {
 app.use(express.static('web'));
 ```
 
+## 学び
+-　Web APIは、一般的にはhttp://example.com/api/v1/xxxのように、「/api/APIバージョン/機能名」の形式を取ることが多い
+
 
 ## 参考サイト
 [Node.jsとExpressでWeb APIを作ってみよう](https://sbfl.net/blog/2018/08/25/nodejs-express-webapi/)
