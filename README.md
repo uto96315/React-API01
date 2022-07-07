@@ -27,6 +27,7 @@ app.get("/", (req, res) => {
     res.send("Success!")
 });
 ```
+> Express.jsではデフォルトで静的ファイルをレスポンスとして返すことができないため、それを許可するための記述のようだ。
 ```
 // webフォルダの中身を公開する
 app.use(express.static('web'));
