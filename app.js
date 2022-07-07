@@ -6,8 +6,10 @@ import express from "express";
 const app = express();
 const port = 3001;
 
+
 // webフォルダの中身を公開する
 app.use(express.static('web'));
+
 
 // http://localhost:3000/api/v1/list にアクセスしてきたときに
 // TODOリストを返す
@@ -23,13 +25,6 @@ app.get('/api/v1/list', (req, res) => {
     res.json(todoList);
 });
 
-// todo用
-// app.use("/todo", (req, res) => {
-//     res.json({
-//         url:"/todo",
-//         messsage: "Success for accessing todo app.",
-//     })
-// })
 
 // 指定されたポート番号でサーバーを立てる処理
 // これがないとエラーが出た
